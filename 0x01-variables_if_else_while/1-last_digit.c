@@ -4,8 +4,9 @@
 
 /**
  * main - Entry
- * Return: Always 0
+ * Return: Always
  */
+
 int main(void)
 {
 	int n;
@@ -13,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	a = n % 10;
+	a = n % 10; 
 
 	if (a > 5)
 	{
@@ -29,3 +30,4 @@ int main(void)
 	}
 	return (0);
 }
+	
