@@ -5,7 +5,6 @@
  *
  * Return: Always 0
  */
-
 int main(void)
 {
 	long prime = 612852475143, div;
@@ -21,7 +20,7 @@ int main(void)
 	{
 	if ((prime % div) == 0)
 	{
-		prime /= div;
+	prime /= div;
 	}
 	}
 	}
