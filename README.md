@@ -1,1 +1,1 @@
-my readme file for more malloc. free
+my readme file for 0x18-dynamic_libraries
